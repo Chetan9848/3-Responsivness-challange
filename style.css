@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* heading styling */
+h1 {
+    text-align: center;
+    color: rgb(0, 134, 29);
+}
+
+/* whole box styling */
+.boxes {
+    margin: 15px 10px auto 10px;
+    text-align: justify;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+}
+
+/* Individual box styling */
+.box-1 {
+    width: 150px;
+    height: 50px;
+    background-color: grey;
+    color: red;
+    padding: 20px 40px 50px 10px;
+
+}
+
+.box-2 {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(172, 172, 172);
+    color: red;
+    padding: 20px 40px 50px 10px;
+}
+
+.box-3 {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(224, 224, 224);
+    color: red;
+    padding: 20px 40px 50px 10px;
+}
+
+.box-4 {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(243, 243, 243);
+    color: red;
+    padding: 20px 40px 50px 10px;
+}
+
+/* Responsive page start */
+ @media (max-width:1200) {
+
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4 {
+        width: 150px;
+    }
+}
+
+@media (max-width:800) {
+
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4 {
+        width: 300px;
+    }
+}
+
+@media (max-width:500) {
+
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4 {
+        width: 450px;
+    }
+}
